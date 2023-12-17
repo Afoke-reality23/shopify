@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body>
+    <div class="header-bar">
+        <div class="header-image">
+            <button>
+                <img src="gallary/shopify.svg" alt="">
+                <img src="gallary/shopify-mobile.svg" alt="">
+            </button>
+        </div>
+        <div class="input">
+            <input type="search" name="searchItem" id="searchItem" placeholder="search">
+            <img src="gallary/search.svg" alt="">
+        </div>
+        <div class="notifyDiv">
+            <button>
+                <img src="gallary/notification.svg" alt="" class="notifyImg">
+            </button>
+            <button class="profile">
+                <p> Davii Collections</p>
+                <span>Dc</span>
+            </button>
+        </div>
+    </div>
+    <div class="popNify">
+        <div class="popHead">
+            <h3>Alert</h3>
+            <div class="popImg">
+                <img src="gallary/network.svg" alt="">
+                <img src="gallary/circleTick.svg" alt="">
+            </div>
+        </div>
+        <div>Alerts about your store and account will show here</div>
+    </div>
+    <div class="store">
+        <div class="profile2">
+            <div>
+                <span>Dc</span>
+                <p> Davii Collections</p>
+            </div>
+            <img src="gallary/circleTick.svg" alt="">
+        </div>
+        <div class="allStore">
+            <img src="gallary/Icons.png" alt="">
+            <div>All Store</div>
+        </div>
+        <hr>
+        <ul>
+            <li>Help Center</li>
+            <li>ChangeLog</li>
+            <li>Community Forum</li>
+            <li>Hire a Shopify Partner</li>
+            <li>keyboard status</li>
+        </ul>
+        <hr>
+        <div class="email">
+            <div>Davii Micheal </div>
+            <div>daviimicheal@gmail.com</div>
+        </div>
+        <div>Manage Account</div>
+        <div>log out</div>
+    </div>
+    <main class="main">
+        <div class="plan">
+            <div class="plandiv">
+                <div class="plandiv-text">
+                    <p>Extend your trial for $1/month for 3 months on select plans.</p>
+                    <button type="submit">select plan</button>
+                </div>
+                <button> <img src="gallary/close.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="guide">
+            <div class="setupguide">
+                <div class="set-up-guide-text">
+                    <h3>Setup guide</h3>
+                    <p>use this personalize guiden to get your store up and running</p>
+                    <div class="range">
+                        <span id="rangeText">0/5 completed </span>
+                        <span id="colorRange"></span>
+                    </div>
+                </div>
+                <button>
+                    <img src="gallary/downBtn.svg" alt="" class="openProducts">
+                </button>
+
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="productName">
+                        <button id="checkbox1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="hover-state" id="unmark-checkbox0" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2.08333"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                class="hide animat-rotating-checkbox" id="rotating-checkbox0" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                                    stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="40" height="40" id="mark-checkbox0" class="hide zoom" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                                <path
+                                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                                    fill="#fff"></path>
+                            </svg>
+                        </button>
+                        <span>
+                            customize your online store
+                        </span>
+                    </div>
+                    <div class="text hide" id="text0">
+                        <p>Choose a theme and add your logo,colors and images to reflect your brand <a
+                                href="http://">learn more</a></p>
+                        <img src="gallary/customise-store.png" alt="" class="image1">
+                        <button>customize theme</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="productName">
+                        <button id="checkbox2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="hover-state" id="unmark-checkbox1" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2.08333"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                class="hide animat-rotating-checkbox" id="rotating-checkbox1" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                                    stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="40" height="40" class="hide zoom" id="mark-checkbox1" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                                <path
+                                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                                    fill="#fff"></path>
+                            </svg>
+                        </button>
+                        <span>Add your first product</span>
+                    </div>
+                    <div class="text hide" id="text1">
+                        <p>Write a description,add photos and set pricing for the products you want to sell <a
+                                href="http://">learn more</a></p>
+                        <img src="gallary/product.png" alt="" class="image2">
+                        <button>Add Products</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="productName">
+                        <button id="checkbox3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="hover-state" id="unmark-checkbox2" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2.08333"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                class="hide animat-rotating-checkbox" id="rotating-checkbox2" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                                    stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="40" height="40" class="hide zoom" id="mark-checkbox2" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                                <path
+                                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                                    fill="#fff"></path>
+                            </svg>
+                        </button>
+                        <span>Add custom a domain</span>
+                    </div>
+                    <div class="text hide" id="text2">
+                        <p>Your current domain is 222219.myshopify.com but you can add a custom domain to help customers
+                            find your online store <a href="http://">learn more</a></p>
+                        <img src="gallary/website.png" alt="" class="image3">
+                        <button>Add Domain</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="productName">
+                        <button id="checkbox4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="hover-state" id="unmark-checkbox3" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2.08333"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                class="hide animat-rotating-checkbox" id="rotating-checkbox3" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                                    stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="40" height="40" class="hide zoom" id="mark-checkbox3" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                                <path
+                                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                                    fill="#fff"></path>
+                            </svg>
+                        </button>
+                        <span>Name your store</span>
+                    </div>
+                    <div class="text hide" id="text3">
+                        <p>Your temporary store name is currentlly Davii Collections.The store appear in your admin and
+                            your
+                            online store <a href="http://">learn more</a></p>
+                        <img src="gallary/name-store.png" alt="" class="image4">
+                        <button>Name Store</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="productName">
+                        <button id="checkbox5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                class="hover-state" id="unmark-checkbox4" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2.08333"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                class="hide animat-rotating-checkbox" id="rotating-checkbox4" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M26 14C26 16.3734 25.2962 18.6935 23.9776 20.6668C22.6591 22.6402 20.7849 24.1783 18.5922 25.0866C16.3995 25.9948 13.9867 26.2324 11.6589 25.7694C9.33114 25.3064 7.19295 24.1635 5.51472 22.4853C3.83649 20.8071 2.6936 18.6689 2.23058 16.3411C1.76755 14.0133 2.00519 11.6005 2.91345 9.4078C3.8217 7.21509 5.35977 5.34094 7.33316 4.02236C9.30655 2.70379 11.6266 2 14 2"
+                                    stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg width="40" height="40" class="hide zoom" id="mark-checkbox4" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#303030"></circle>
+                                <path
+                                    d="M17.2738 8.52629C17.6643 8.91682 17.6643 9.54998 17.2738 9.94051L11.4405 15.7738C11.05 16.1644 10.4168 16.1644 10.0263 15.7738L7.3596 13.1072C6.96908 12.7166 6.96908 12.0835 7.3596 11.693C7.75013 11.3024 8.38329 11.3024 8.77382 11.693L10.7334 13.6525L15.8596 8.52629C16.2501 8.13577 16.8833 8.13577 17.2738 8.52629Z"
+                                    fill="#fff"></path>
+                            </svg>
+                        </button>
+                        <span>Set up a payment provider
+                    </div>
+                    </span>
+                    <div class="text hide" id="text4">
+                        <p>Choose a payment provider to start accepting payments.You'll need to create an account
+                            with
+                            the payment provider and set it up with your Shopify store <a href="http://">learn more</a>
+                        </p>
+                        <img src="gallary/payment.png" alt="" class="image5">
+                        <button>Set up Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
